@@ -73,7 +73,13 @@
               <h1 class="panel-title">Email</h1>
             </div>
             <div class="panel-body">
-              <a href="mailto:#">dlunde@kth.se</a>
+              <script language="JavaScript">
+var username = "dlunde";
+var hostname = "kth.se";
+var linktext = username + "@" + hostname ;
+document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>"
+    + linktext + "</a>");
+              </script>
             </div>
           </div>
         </div>
