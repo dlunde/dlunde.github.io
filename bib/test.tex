@@ -1,4 +1,4 @@
-\documentclass{acmart}
+\documentclass{article}
 
 \begin{document}
 
@@ -9,10 +9,16 @@
 \cite{lunden2018combining}
 
 % Non peer reviewed papers
+\cite{lunden2018automatic}
 
 % Theses
 \cite{lunden2017delayed}
 
-\bibliographystyle{ACM-Reference-Format}
-\bibliography{delsamp,ex,statdelsamp}
+\bibliographystyle{plain}
+\bibliography{%
+  delayed-sampling,
+  ex,
+  ppl-static-pps,
+  ppl-static
+}
 \end{document}
