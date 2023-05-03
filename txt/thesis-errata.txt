@@ -1,0 +1,5 @@
+# Errata: Correct and Efficient Monte Carlo Inference for Universal Probabilistic Programming Languages. Daniel Lundén. Doctoral thesis, KTH Royal Institute of Technology. 2023.
+
+- Page 3, one reference to Figure 1.2c should be 1.2a
+- In Figure 3.1: "Partial CPS" should be "Selective CPS"
+- There may exist updated versions of the component articles included as appendices in the thesis. Please see dlunde.github.io for the latest versions.
